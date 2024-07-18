@@ -40,6 +40,12 @@
      text-decoration: none;
  }
 
+ .name {
+     font-family: "Ubuntu", sans-serif;
+     font-size: 3.8rem;
+     margin: 0;
+ }
+
  input,
  textarea,
  button {

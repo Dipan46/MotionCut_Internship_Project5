@@ -12,12 +12,6 @@ main:first-child(h2) {
     margin: 0;
 }
 
-.name {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 3.8rem;
-    margin: 0;
-}
-
 .card {
     display: flex;
     flex-direction: column;
