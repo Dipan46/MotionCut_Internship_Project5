@@ -6,17 +6,7 @@ main {
      align-items: center;
  }
 
- .card {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 2rem;
-     background-color: white;
-     margin: 2rem auto;
-     max-width: 800px;
-     border-radius: 1rem;
-     box-shadow: 0 0 0 2px rgb(0, 0, 0), 8px 8px 0 0 rgb(0, 0, 0);
- }
+
 
  .product-info {
      display: grid;
@@ -25,40 +15,20 @@ main {
      gap: 20px;
      justify-content: center;
  }
-
- h2 {
-     font-family: "Ubuntu", sans-serif;
-     font-size: 1.8rem;
-     margin: 0;
- }
-
- #title {
-     font-family: "Ubuntu", sans-serif;
-     font-size: 3.8rem;
-     margin: 0;
- }
-
+ 
  p {
      padding: 0rem 2rem;
  }
 
  .product-image {
-     width: 200px;
+     width: 300px;
      /* Fixed width */
-     height: 200px;
+     height: 250px;
      /* Fixed height */
      object-fit: cover;
      /* Ensure the image covers the entire area */
-     border-radius: 4rem;
+     border-radius: 6rem;
      transition: .5s;
- }
-
- .product-image:hover {
-     width: 240px;
-     /* Slightly larger on hover */
-     height: 240px;
-     /* Slightly larger on hover */
-     border-radius: 1rem;
  }
 
  .product-details {
