@@ -11,6 +11,32 @@ h2 {
     font-size: 3.8rem;
     margin: 0;
 }
+.btn {
+    display: flex;
+    margin: 0 6rem 0 6rem;
+}
+
+.cta {
+    padding: 1rem 2rem;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: .5s;
+}
+
+.cta:hover {
+    box-shadow: 5px 5px 0 0 rgb(0, 0, 0);
+    scale: 1.05;
+}
+
+.cta:active {
+    scale: 1;
+    box-shadow: none;
+}
+
 
 #registerForm {
     display: flex;
