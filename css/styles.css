@@ -1,3 +1,5 @@
+ @import 'animate.css';
+
  body {
      font-family: Arial, sans-serif;
      background: linear-gradient(90deg, rgb(243, 243, 255) 0%, rgb(254, 248, 255) 51%, rgb(255, 250, 253) 100%);
@@ -46,5 +48,5 @@
      margin-bottom: 10px;
      padding: 10px;
      border: 1px solid #ccc;
-    border-radius: .5rem;
+     border-radius: .5rem;
  }
