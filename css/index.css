@@ -1,0 +1,38 @@
+body {
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    padding: 20px;
+    text-align: center;
+    color: #ff0000;
+}
+
+main h2 {
+    font-weight: 900;
+    font-size: 4rem;
+    margin: 2.5rem;
+}
+
+main p {
+    font-size: 1.5rem;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        font-size: .8rem;
+    }
+}

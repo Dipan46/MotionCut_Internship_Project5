@@ -1,0 +1,67 @@
+main {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3.8rem;
+    margin: 0;
+}
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.btn {
+    display: flex;
+    margin: 0 4rem 0 6rem;
+}
+
+.cta {
+    padding: 1rem 2rem;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: .5s;
+}
+
+.cta:hover {
+    box-shadow: 5px 5px 0 0 rgb(0, 0, 0);
+    scale: 1.05;
+}
+
+.cta:active {
+    scale: 1;
+    box-shadow: none;
+}
+
+footer {
+    /* Footer styles */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        font-size: .8rem;
+    }
+
+    #registerForm {
+        width: 80%;
+    }
+}
