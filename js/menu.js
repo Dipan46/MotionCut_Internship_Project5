@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const addToCart = (item) => {
         setTimeout(function () {
-            alert('This is a delayed alert!');
+            alert('Added to cart!');
         }, 300);
         const itemInCart = cart.find(cartItem => cartItem.id === item.id);
         if (itemInCart) {
