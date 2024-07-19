@@ -81,3 +81,10 @@ footer {
         width: 80%;
     }
 }
+
+
+@media (max-width: 1400px) {
+    .cta {
+        margin: 0 4rem;
+    }
+}
