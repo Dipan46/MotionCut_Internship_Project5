@@ -1,0 +1,21 @@
+/* Custom cursor styles */
+body {
+    cursor: none;
+    /* Hide the default cursor */
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    /* Make sure it's a circle */
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+    /* So that it stays on top of all other elements */
+    display: none;
+    /* Initially hide the custom cursor */
+}

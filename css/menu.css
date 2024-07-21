@@ -6,8 +6,6 @@ main {
     align-items: center;
 }
 
-
-
 .product-info {
     display: grid;
     grid-gap: 0rem;
