@@ -37,17 +37,18 @@
  }
 
  header h1 a {
-    cursor: none;
+     cursor: none;
      color: #fff;
+     text-decoration: none;
  }
 
  header h1 a:hover {
-    cursor: none;
+     cursor: none;
      color: #ff0000;
  }
 
- a{
-    cursor: none;
+ a {
+     cursor: none;
  }
 
  nav ul {
